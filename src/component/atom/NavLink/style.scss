@@ -1,0 +1,12 @@
+@import 'variables';
+
+.link {
+  color: $dark;
+  font: $font-body-2;
+  text-decoration: none;
+  user-select: none;
+
+  &.active {
+    text-decoration: underline;
+  }
+}

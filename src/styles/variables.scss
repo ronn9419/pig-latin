@@ -1,0 +1,28 @@
+// palette
+$primary: #f9a195;
+$secondary: #fabfb7;
+$light: #ffeff4;
+$dark: #333333;
+$link: #3333aa;
+$white: #ffffff;
+
+// spacing
+$spacing-1: 8;
+$spacing-2: 16;
+$spacing-3: 24;
+$spacing-4: 32;
+
+// breakpoint
+$breakpoint-l: 1024;
+$breakpoint-m: 660;
+$breakpoint-s: 375;
+
+// background
+$app-bg-color: $light;
+
+// font
+$font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+
+$font-body-1: normal 16px/20px $font-family;
+$font-body-2: normal 20px/24px $font-family;
+$font-header: normal 32px/38px $font-family;

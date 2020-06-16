@@ -1,0 +1,33 @@
+@import 'variables';
+@import 'mixins';
+
+.appHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: $primary;
+  padding: $spacing-1 $spacing-2;
+
+  @include screen-phone {
+    flex-direction: column;
+  }
+}
+
+.nav {
+  & ul {
+    @include screen-phone {
+      flex-direction: column;
+      justify-content: center;
+      align-content: center;
+    }
+  }
+}
+
+.appLogoContainer {
+  display: flex;
+  align-items: center;
+}
+
+.appName {
+  margin-left: $spacing-2;
+}

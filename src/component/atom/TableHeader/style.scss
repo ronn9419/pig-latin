@@ -1,0 +1,9 @@
+@import 'variables';
+
+.th {
+  background-color: $primary;
+  color: $light;
+  font: $font-body-2;
+  padding: $spacing-1;
+  min-width: 200px;
+}
